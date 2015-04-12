@@ -1,0 +1,21 @@
+{
+  "name": "WikiJS",
+  "version": "0.0.1",
+  "description": "MediaWiki markup compilation to HTML.",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-coffee": "~0.13.0",
+    "grunt-contrib-qunit": "~0.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "wiki",
+    "html"
+  ],
+  "author": "Ricardo Miranda",
+  "license": "BSD-2-Clause"
+}
