@@ -15,7 +15,7 @@ Not soon. Sorry.
 
 ## Compiling
 I'm still new in Grunt, so the Gruntfile is evolving as my experience does.
-Everthing you need is in the ```src ``` directory. You could use Grunt o just
+Everthing you need is in the ```src ``` directory. You could use Grunt or just
 the CoffeeScript compiler.
 If you think this should be better explained, just let me know.
 
