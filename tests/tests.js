@@ -7,8 +7,8 @@ QUnit.test( "Heading 1 Test", function( assert ) {
 
     var tests = [
         ["<h1>Hello World!!</h1>", "= Hello World!! ="],
-        ["=  =", "=  ="],
-        ["=This should stay like this... ==", "=This should stay like this... =="],
+        ["<h1></h1>", "=  ="],
+        ["= This should stay like this... ==", "= This should stay like this... =="],
         ["<h1> Oh my </h1>", "=  Oh my  ="]
     ];
 
@@ -21,10 +21,10 @@ QUnit.test( "Heading 1 Test", function( assert ) {
 QUnit.test( "Heading 2 Test", function( assert ) {
 
     var tests = [
-    ["<h1>Hello World!!</h1>", "= Hello World!! ="],
-    ["=  =", "=  ="],
-    ["=This should stay like this... ==", "=This should stay like this... =="],
-    ["<h1> Oh my </h1>", "=  Oh my  ="]
+    ["<h2>This is a Heading</h2>", "== This is a Heading =="],
+    ["<h2></h2>", "==  =="],
+    ["<h2> </h2>", "==   =="],
+    ["<h2> Oh my </h2>", "==  Oh my  =="]
     ];
 
     for (var i in tests) {
