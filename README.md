@@ -4,7 +4,8 @@ This is an attempt of creating a simple MediaWiki markup to JS compiler.
 This should be improved over time... hopefully.
 
 ## Installation
-Download the wiki.js file in build and put it in your page. That's it.
+Download the wiki-x.x.x.js (or the minimified) file in build and put it in
+your page. That's it.
 
 ### Require JS
 Soon...
